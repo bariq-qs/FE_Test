@@ -77,7 +77,7 @@ const ReportLalinPage = () => {
         <Paging defaultPageSize={10} />
         <LoadPanel
           shadingColor='rgba(0,0,0,0.4)'
-          enabled={true}
+          enabled={isLoading}
           showIndicator={true}
           showPane={true}
           shading={true}
