@@ -1,0 +1,19 @@
+.wrap-auth-layout {
+  height: 100vh;
+
+  .wrap-left-side {
+    @apply rounded-lg;
+    background: url('../../../assets/images//bg-tol-2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    div:last-child {
+      display: none;
+    }
+  }
+}
